@@ -222,6 +222,17 @@ build/
 docs/**/tmp
 ```
 
+```
+# игнорировать все файлы
+**
+
+# кроме .tex и .pdf
+!**.tex
+!**.pdf 
+```
+
+
+
 игнорировать только "docs/current/tmp" и "docs/old/tmp"
 файл "docs/old/saved/a/b/c/d/tmp" не попадает в правило
 ```
